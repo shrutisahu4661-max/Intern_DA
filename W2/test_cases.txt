@@ -1,0 +1,36 @@
+# Test Cases for Grade Calculator
+
+## Valid Inputs this will work without errors - Only numbers between 0 and 100
+
+Grade A (90-100)
+Grade B (80-89)
+Grade C (70-79)
+Grade D (60-69)
+Grade F (0-59)
+
+## Invalid Inputs that will give errors or invalid messages
+
+- marks=-1  → "Invalid Marks Try again."
+- marks=101 → "Invalid Marks Try again."
+- marks=150 → "Invalid Marks Try again."
+- marks="abc"  → "Invalid input.. Please enter a valid number for marks between 0 and 100."
+- marks=" ninety" → Same error
+- marks="" → Same error
+- marks="95.5" → Same error (float not accepted)
+- marks=0   → Grade F (lowest valid)
+- marks=100 → Grade A (highest valid)
+- Empty name → accepted (no validation on name)
+
+## Sample Run
+---
+Enter student name: shruti
+Enter marks: 85
+Result for Shruti:
+Marks: 85/100
+Grade: B
+Message: Very Good! Keep it up!
+
+---
+Enter studen name: Shruti
+Enter marks: 101
+Invalid Marks Try again.
