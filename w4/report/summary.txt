@@ -1,0 +1,7 @@
+Personal Expense Tracker - Summary
+----------------------------------
+Total Expense: INR 13970.00
+Average Expense: INR 735.26
+Highest Single Expense: INR 2300.00
+Lowest Single Expense: INR 100.00
+Top Spending Category: Bills (INR 5500.00)

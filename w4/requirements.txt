@@ -1,0 +1,7 @@
+pandas
+matplotlib
+patlib
+dataset = sales_data.csv
+3 folders - data, visualizations, report
+txt files 
+main.py - main code file

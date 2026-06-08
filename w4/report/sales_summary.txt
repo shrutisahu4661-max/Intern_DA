@@ -1,0 +1,8 @@
+Sales Data Analysis - Summary
+-----------------------------
+Total Orders: 100
+Total Sales: INR 12365048.00
+Average Sale per Order: INR 123650.48
+Highest Order Sale: INR 373932.00
+Lowest Order Sale: INR 6540.00
+Best Selling Product: Laptop (INR 3889210.00)
