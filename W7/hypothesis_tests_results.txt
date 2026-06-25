@@ -1,0 +1,27 @@
+
+STATISTICAL ANALYSIS REPORT
+
+Average Sales: 123650.48
+Median Sales: 97955.50
+Mode Sales: 6540.00
+Std Dev: 100161.09
+
+95% Confidence Interval:
+(103776.35, 143524.61)
+
+Correlation Matrix:
+             Quantity     Price  Total_Sales
+Quantity     1.000000  0.008014     0.688107
+Price        0.008014  1.000000     0.646131
+Total_Sales  0.688107  0.646131     1.000000
+
+Hypothesis Tests:
+1. Region Comparison p-value = 0.7096
+2. Churn vs Monthly Charges p-value = 0.0101
+3. ANOVA Regions p-value = 0.0972
+
+Regression:
+R = 0.6461
+R² = 0.4175
+Slope = 4.6500
+p-value = 0.0000
